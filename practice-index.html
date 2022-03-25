@@ -51,26 +51,14 @@
   <section>
     <h2>お問い合わせ</h2>
     <form action="detail.html" method="get">
-      <label>
-        会社名<input type="text" name="会社名">
-      </label>
-    </form>
-    <form action="detail.html" method="get">
-      <label>
-        お名前<input type="text" name="お名前">
-      </label>
-    </form>
-    <form action="detail.html" method="get">
-      <label>
-        メールアドレス<input type="email" name="メールアドレス">
-      </label>
-    </form>
-    <form action="detail.html" method="get">
-      <label>
-        お問い合わせ内容<textarea name="お問い合わせ内容" cols="80" rows="6"></textarea>
-      </label>
-    </form>
-    <form action="detail.html" method="get">
+      <label for="会社名">会社名</label>
+      <input type="text" name="company" id="会社名"><br>
+      <label for="お名前">お名前</label>
+      <input type="text" name="name" id="お名前"><br>
+      <label for="メールアドレス">メールアドレス</label>
+      <input type="email" name="email" id="メールアドレス"><br>
+      <label for="お問い合わせ内容">お問い合わせ内容</label>
+      <textarea name="contact" cols="80" rows="6" id="お問い合わせ内容"></textarea><br>
       <input type="submit" value="お申し込み">
     </form>
     <small>&copy;2020 TECH inc.</small>
